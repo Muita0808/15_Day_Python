@@ -15,11 +15,11 @@ print("Minimum value:", min_value)
 ##QUIZ 66666
 #CALCULTING COMPOUND INTEREST
 #WE just take some random numbers p=5000, rate = 10%, time = 2yrs
-principal = 5000
-rate = 0.1
-time = 2 #in years
-amount = principal * (1 + rate) **time
-#INCOMPLETE ABOVE
+#principal = 5000
+#rate = 0.1
+#time = 2 #in years
+#Amount = principal * (1 + rate) **time
+
 #
 #
 #QUIZ 8888
