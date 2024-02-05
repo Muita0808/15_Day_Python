@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #program taking users name and age as input and prints a greeting message
 #QUIZ 2222222
 name=input("Enter your name: ")
