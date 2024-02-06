@@ -6,5 +6,5 @@ def count_char(sentence):
     """
     function takes a sentence and returns no of characters
     """
-    if isinstance(str, sentence):
+    if isinstance(sentence, str):
         return len(sentence)
