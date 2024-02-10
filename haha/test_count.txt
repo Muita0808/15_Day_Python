@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+"""
+"""
+>>> from count_chars import count_char
+>>> count_char("MAGDALINE MUMBI")
+15
+
+>>> myname = "Victor Njenga"
+>>> print(type(myname))
+<class 'str'>
+>>> a = 100
+>>> print(type(a))
+<class 'int'>
+>>> count_char(myname)
+13
+>>> number = 5667
+>>> count_char(number)
+>>>

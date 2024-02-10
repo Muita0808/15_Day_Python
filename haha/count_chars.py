@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-program takes a sentence and counts words
+Module takes a sentence and counts words
 """
 def count_char(sentence):
     """
@@ -8,3 +8,5 @@ def count_char(sentence):
     """
     if isinstance(sentence, str):
         return len(sentence)
+    else:
+        pass
