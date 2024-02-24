@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 def is_prime(number):
     if number <= 1:
-        return 1
-    for i in range(2, number):
-        if number % i == 0:
-            return 1
-        else:
-            
+        print("Number is 1 or less than 1")
+        return
+
+    num = 2
+
+    while num < number:
+        if number % num == 0:
+            print("Number is not prime")
+            return
+        num = num + 1
+    print("Number is prime")
+    return
 
